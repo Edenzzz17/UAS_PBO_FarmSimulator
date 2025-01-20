@@ -1,10 +1,10 @@
 package FarmSimulator.Inheritance;
 
-import FarmSimulator.Abstraction.Farm;
-import FarmSimulator.Encapsulation.Animal;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import FarmSimulator.Abstraction.Farm;
+import FarmSimulator.Encapsulation.Animal;
 
 public class AnimalFarm extends Farm {
     private List<Animal> animals;
